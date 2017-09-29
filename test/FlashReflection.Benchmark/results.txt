@@ -1,0 +1,300 @@
+﻿Skewness = 0.92, Kurtosis = 2.81
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Program-report.csv
+  BenchmarkDotNet.Artifacts\results\Program-report-github.md
+  BenchmarkDotNet.Artifacts\results\Program-report.html
+
+// * Detailed results *
+Program.GetViaProperty: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 0.0058 ns, StdErr = 0.0022 ns (37.58%); N = 15, StdDev = 0.0085 ns
+Min = 0.0000 ns, Q1 = 0.0000 ns, Median = 0.0000 ns, Q3 = 0.0121 ns, Max = 0.028
+3 ns
+IQR = 0.0121 ns, LowerFence = -0.0182 ns, UpperFence = 0.0303 ns
+ConfidenceInterval = [-0.0032 ns; 0.0149 ns] (CI 99.9%), Margin = 0.0091 ns (155
+.59% of Mean)
+Skewness = 1.26, Kurtosis = 3.65
+
+
+Program.GetViaDelegate: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 1.8663 ns, StdErr = 0.0029 ns (0.15%); N = 15, StdDev = 0.0112 ns
+Min = 1.8517 ns, Q1 = 1.8565 ns, Median = 1.8650 ns, Q3 = 1.8725 ns, Max = 1.893
+4 ns
+IQR = 0.0161 ns, LowerFence = 1.8324 ns, UpperFence = 1.8966 ns
+ConfidenceInterval = [1.8544 ns; 1.8783 ns] (CI 99.9%), Margin = 0.0119 ns (0.64
+% of Mean)
+Skewness = 0.83, Kurtosis = 2.91
+
+
+Program.GetViaILEmit: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 2.9481 ns, StdErr = 0.0041 ns (0.14%); N = 14, StdDev = 0.0154 ns
+Min = 2.9248 ns, Q1 = 2.9376 ns, Median = 2.9485 ns, Q3 = 2.9591 ns, Max = 2.973
+4 ns
+IQR = 0.0215 ns, LowerFence = 2.9053 ns, UpperFence = 2.9914 ns
+ConfidenceInterval = [2.9307 ns; 2.9654 ns] (CI 99.9%), Margin = 0.0174 ns (0.59
+% of Mean)
+Skewness = 0.21, Kurtosis = 1.84
+
+
+Program.GetViaCompiledExpressionTrees: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 11.2914 ns, StdErr = 0.0066 ns (0.06%); N = 15, StdDev = 0.0254 ns
+Min = 11.2304 ns, Q1 = 11.2688 ns, Median = 11.2961 ns, Q3 = 11.3141 ns, Max = 1
+1.3188 ns
+IQR = 0.0454 ns, LowerFence = 11.2007 ns, UpperFence = 11.3822 ns
+ConfidenceInterval = [11.2643 ns; 11.3186 ns] (CI 99.9%), Margin = 0.0271 ns (0.
+24% of Mean)
+Skewness = -0.82, Kurtosis = 2.75
+
+
+Program.GetViaFastMember: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 33.8724 ns, StdErr = 0.0235 ns (0.07%); N = 15, StdDev = 0.0910 ns
+Min = 33.7163 ns, Q1 = 33.7774 ns, Median = 33.8958 ns, Q3 = 33.9498 ns, Max = 3
+3.9969 ns
+IQR = 0.1724 ns, LowerFence = 33.5187 ns, UpperFence = 34.2085 ns
+ConfidenceInterval = [33.7752 ns; 33.9697 ns] (CI 99.9%), Margin = 0.0973 ns (0.
+29% of Mean)
+Skewness = -0.27, Kurtosis = 1.54
+
+
+Program.GetViaFlashReflection: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 6.4690 ns, StdErr = 0.0038 ns (0.06%); N = 14, StdDev = 0.0142 ns
+Min = 6.4365 ns, Q1 = 6.4605 ns, Median = 6.4681 ns, Q3 = 6.4768 ns, Max = 6.494
+4 ns
+IQR = 0.0163 ns, LowerFence = 6.4360 ns, UpperFence = 6.5012 ns
+ConfidenceInterval = [6.4530 ns; 6.4850 ns] (CI 99.9%), Margin = 0.0160 ns (0.25
+% of Mean)
+Skewness = -0.3, Kurtosis = 3.03
+
+
+Program.GetViaReflectionWithCaching: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 126.4189 ns, StdErr = 0.0698 ns (0.06%); N = 15, StdDev = 0.2703 ns
+Min = 125.9772 ns, Q1 = 126.1559 ns, Median = 126.5390 ns, Q3 = 126.5895 ns, Max
+ = 126.8247 ns
+IQR = 0.4335 ns, LowerFence = 125.5057 ns, UpperFence = 127.2397 ns
+ConfidenceInterval = [126.1299 ns; 126.7079 ns] (CI 99.9%), Margin = 0.2890 ns (
+0.23% of Mean)
+Skewness = -0.14, Kurtosis = 1.58
+
+
+Program.GetViaReflection: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 192.1511 ns, StdErr = 0.0843 ns (0.04%); N = 15, StdDev = 0.3264 ns
+Min = 191.5731 ns, Q1 = 191.9304 ns, Median = 192.1587 ns, Q3 = 192.3710 ns, Max
+ = 192.8046 ns
+IQR = 0.4406 ns, LowerFence = 191.2696 ns, UpperFence = 193.0319 ns
+ConfidenceInterval = [191.8022 ns; 192.5001 ns] (CI 99.9%), Margin = 0.3489 ns (
+0.18% of Mean)
+Skewness = 0.26, Kurtosis = 2.33
+
+
+Program.GetViaDelegateDynamicInvoke: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 954.5050 ns, StdErr = 2.2491 ns (0.24%); N = 15, StdDev = 8.7107 ns
+Min = 941.0391 ns, Q1 = 948.9087 ns, Median = 951.2145 ns, Q3 = 960.4721 ns, Max
+ = 971.0568 ns
+IQR = 11.5634 ns, LowerFence = 931.5635 ns, UpperFence = 977.8173 ns
+ConfidenceInterval = [945.1928 ns; 963.8172 ns] (CI 99.9%), Margin = 9.3122 ns (
+0.98% of Mean)
+Skewness = 0.64, Kurtosis = 2.15
+
+
+Program.SetViaProperty: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 1.8824 ns, StdErr = 0.0024 ns (0.13%); N = 14, StdDev = 0.0091 ns
+Min = 1.8696 ns, Q1 = 1.8786 ns, Median = 1.8810 ns, Q3 = 1.8841 ns, Max = 1.904
+2 ns
+IQR = 0.0055 ns, LowerFence = 1.8704 ns, UpperFence = 1.8923 ns
+ConfidenceInterval = [1.8722 ns; 1.8926 ns] (CI 99.9%), Margin = 0.0102 ns (0.54
+% of Mean)
+Skewness = 0.75, Kurtosis = 3.18
+
+
+Program.SetViaDelegate: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 9.3983 ns, StdErr = 0.0040 ns (0.04%); N = 15, StdDev = 0.0157 ns
+Min = 9.3763 ns, Q1 = 9.3817 ns, Median = 9.3974 ns, Q3 = 9.4080 ns, Max = 9.428
+1 ns
+IQR = 0.0263 ns, LowerFence = 9.3422 ns, UpperFence = 9.4475 ns
+ConfidenceInterval = [9.3816 ns; 9.4151 ns] (CI 99.9%), Margin = 0.0167 ns (0.18
+% of Mean)
+Skewness = 0.22, Kurtosis = 1.8
+
+
+Program.SetViaILEmit: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 10.3386 ns, StdErr = 0.0155 ns (0.15%); N = 15, StdDev = 0.0601 ns
+Min = 10.2351 ns, Q1 = 10.2991 ns, Median = 10.3404 ns, Q3 = 10.3790 ns, Max = 1
+0.4666 ns
+IQR = 0.0798 ns, LowerFence = 10.1794 ns, UpperFence = 10.4987 ns
+ConfidenceInterval = [10.2743 ns; 10.4028 ns] (CI 99.9%), Margin = 0.0643 ns (0.
+62% of Mean)
+Skewness = 0.2, Kurtosis = 2.41
+
+
+Program.SetViaCompiledExpressionTrees: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 9.9524 ns, StdErr = 0.0101 ns (0.10%); N = 15, StdDev = 0.0391 ns
+Min = 9.8951 ns, Q1 = 9.9190 ns, Median = 9.9523 ns, Q3 = 9.9811 ns, Max = 10.03
+33 ns
+IQR = 0.0621 ns, LowerFence = 9.8258 ns, UpperFence = 10.0743 ns
+ConfidenceInterval = [9.9107 ns; 9.9942 ns] (CI 99.9%), Margin = 0.0418 ns (0.42
+% of Mean)
+Skewness = 0.23, Kurtosis = 2.05
+
+
+Program.SetViaFastMember: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 35.6829 ns, StdErr = 0.0299 ns (0.08%); N = 15, StdDev = 0.1159 ns
+Min = 35.5180 ns, Q1 = 35.5922 ns, Median = 35.6339 ns, Q3 = 35.8040 ns, Max = 3
+5.9171 ns
+IQR = 0.2118 ns, LowerFence = 35.2745 ns, UpperFence = 36.1218 ns
+ConfidenceInterval = [35.5590 ns; 35.8069 ns] (CI 99.9%), Margin = 0.1239 ns (0.
+35% of Mean)
+Skewness = 0.57, Kurtosis = 1.98
+
+
+Program.SetViaFlashReflection: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 6.7196 ns, StdErr = 0.0036 ns (0.05%); N = 14, StdDev = 0.0136 ns
+Min = 6.7024 ns, Q1 = 6.7077 ns, Median = 6.7161 ns, Q3 = 6.7323 ns, Max = 6.745
+2 ns
+IQR = 0.0246 ns, LowerFence = 6.6709 ns, UpperFence = 6.7691 ns
+ConfidenceInterval = [6.7043 ns; 6.7349 ns] (CI 99.9%), Margin = 0.0153 ns (0.23
+% of Mean)
+Skewness = 0.38, Kurtosis = 1.76
+
+
+Program.SetViaReflectionWithCaching: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 205.2057 ns, StdErr = 0.2247 ns (0.11%); N = 15, StdDev = 0.8704 ns
+Min = 204.0874 ns, Q1 = 204.5336 ns, Median = 204.9971 ns, Q3 = 205.7993 ns, Max
+ = 206.8059 ns
+IQR = 1.2657 ns, LowerFence = 202.6352 ns, UpperFence = 207.6978 ns
+ConfidenceInterval = [204.2751 ns; 206.1362 ns] (CI 99.9%), Margin = 0.9305 ns (
+0.45% of Mean)
+Skewness = 0.62, Kurtosis = 1.92
+
+
+Program.SetViaReflection: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 277.5734 ns, StdErr = 0.4750 ns (0.17%); N = 15, StdDev = 1.8396 ns
+Min = 275.4609 ns, Q1 = 275.9768 ns, Median = 276.8581 ns, Q3 = 278.8692 ns, Max
+ = 281.1486 ns
+IQR = 2.8924 ns, LowerFence = 271.6381 ns, UpperFence = 283.2079 ns
+ConfidenceInterval = [275.6067 ns; 279.5401 ns] (CI 99.9%), Margin = 1.9667 ns (
+0.71% of Mean)
+Skewness = 0.54, Kurtosis = 1.82
+
+
+Program.SetViaDelegateDynamicInvoke: DefaultJob
+Runtime = .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0; GC
+ = Concurrent Workstation
+Mean = 1.0105 us, StdErr = 0.0021 us (0.21%); N = 15, StdDev = 0.0081 us
+Min = 1.0012 us, Q1 = 1.0045 us, Median = 1.0073 us, Q3 = 1.0161 us, Max = 1.029
+9 us
+IQR = 0.0116 us, LowerFence = 0.9870 us, UpperFence = 1.0335 us
+ConfidenceInterval = [1.0018 us; 1.0191 us] (CI 99.9%), Margin = 0.0087 us (0.86
+% of Mean)
+Skewness = 0.92, Kurtosis = 2.81
+
+
+Total time: 00:06:15 (375.14 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.10.9, OS=Windows 7 SP1 (6.1.7601)
+Processor=Intel Core i7-3770 CPU 3.40GHz (Ivy Bridge), ProcessorCount=8
+Frequency=3312949 Hz, Resolution=301.8459 ns, Timer=TSC
+  [Host]     : .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.
+0
+  DefaultJob : .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.
+0
+
+
+                        Method |          Mean |     Error |    StdDev | Scaled
+| ScaledSD |
+------------------------------ |--------------:|----------:|----------:|-------:
+|---------:|
+                GetViaProperty |     0.0058 ns | 0.0091 ns | 0.0085 ns |      ?
+|        ? |
+                GetViaDelegate |     1.8663 ns | 0.0119 ns | 0.0112 ns |      ?
+|        ? |
+                  GetViaILEmit |     2.9481 ns | 0.0174 ns | 0.0154 ns |      ?
+|        ? |
+ GetViaCompiledExpressionTrees |    11.2914 ns | 0.0271 ns | 0.0254 ns |      ?
+|        ? |
+              GetViaFastMember |    33.8724 ns | 0.0973 ns | 0.0910 ns |      ?
+|        ? |
+         GetViaFlashReflection |     6.4690 ns | 0.0160 ns | 0.0142 ns |      ?
+|        ? |
+   GetViaReflectionWithCaching |   126.4189 ns | 0.2890 ns | 0.2703 ns |      ?
+|        ? |
+              GetViaReflection |   192.1511 ns | 0.3489 ns | 0.3264 ns |      ?
+|        ? |
+   GetViaDelegateDynamicInvoke |   954.5050 ns | 9.3122 ns | 8.7107 ns |      ?
+|        ? |
+                SetViaProperty |     1.8824 ns | 0.0102 ns | 0.0091 ns |      ?
+|        ? |
+                SetViaDelegate |     9.3983 ns | 0.0167 ns | 0.0157 ns |      ?
+|        ? |
+                  SetViaILEmit |    10.3386 ns | 0.0643 ns | 0.0601 ns |      ?
+|        ? |
+ SetViaCompiledExpressionTrees |     9.9524 ns | 0.0418 ns | 0.0391 ns |      ?
+|        ? |
+              SetViaFastMember |    35.6829 ns | 0.1239 ns | 0.1159 ns |      ?
+|        ? |
+         SetViaFlashReflection |     6.7196 ns | 0.0153 ns | 0.0136 ns |      ?
+|        ? |
+   SetViaReflectionWithCaching |   205.2057 ns | 0.9305 ns | 0.8704 ns |      ?
+|        ? |
+              SetViaReflection |   277.5734 ns | 1.9667 ns | 1.8396 ns |      ?
+|        ? |
+   SetViaDelegateDynamicInvoke | 1,010.4607 ns | 8.6607 ns | 8.1012 ns |      ?
+|        ? |
+
+// * Hints *
+Outliers
+  Program.GetViaILEmit: Default          -> 1 outlier  was  removed
+  Program.GetViaFlashReflection: Default -> 1 outlier  was  removed
+  Program.SetViaProperty: Default        -> 1 outlier  was  removed
+  Program.SetViaFlashReflection: Default -> 1 outlier  was  removed
+
+// * Legends *
+  Mean     : Arithmetic mean of all measurements
+  Error    : Half of 99.9% confidence interval
+  StdDev   : Standard deviation of all measurements
+  Scaled   : Mean(CurrentBenchmark) / Mean(BaselineBenchmark)
+  ScaledSD : Standard deviation of ratio of distibution of [CurrentBenchmark] an
+d [BaselineBenchmark]
+  1 ns     : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *
+Press any key to continue . . .

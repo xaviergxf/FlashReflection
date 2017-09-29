@@ -1,0 +1,5 @@
+C:\Github\FlashReflection\test\FlashReflection.Benchmark\bin\Debug\netstandard2.0\FlashReflection.Benchmark.deps.json
+C:\Github\FlashReflection\test\FlashReflection.Benchmark\bin\Debug\netstandard2.0\FlashReflection.Benchmark.dll
+C:\Github\FlashReflection\test\FlashReflection.Benchmark\obj\Debug\netstandard2.0\FlashReflection.Benchmark.csproj.CoreCompileInputs.cache
+C:\Github\FlashReflection\test\FlashReflection.Benchmark\obj\Debug\netstandard2.0\FlashReflection.Benchmark.AssemblyInfoInputs.cache
+C:\Github\FlashReflection\test\FlashReflection.Benchmark\obj\Debug\netstandard2.0\FlashReflection.Benchmark.AssemblyInfo.cs

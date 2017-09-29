@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Program</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.10.9, OS=Windows 7 SP1 (6.1.7601)
+Processor=Intel Core i7-3770 CPU 3.40GHz (Ivy Bridge), ProcessorCount=8
+Frequency=3312949 Hz, Resolution=301.8459 ns, Timer=TSC
+  [Host]     : .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0
+  DefaultJob : .NET Framework 4.7 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.2114.0
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>                 Method</th><th>   Mean</th><th>Error</th><th>StdDev</th><th>Scaled</th><th>ScaledSD</th>
+</tr>
+</thead><tbody><tr><td>         GetViaProperty</td><td>0.0058 ns</td><td>0.0091 ns</td><td>0.0085 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>         GetViaDelegate</td><td>1.8663 ns</td><td>0.0119 ns</td><td>0.0112 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>           GetViaILEmit</td><td>2.9481 ns</td><td>0.0174 ns</td><td>0.0154 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>GetViaCompiledExpressionTrees</td><td>11.2914 ns</td><td>0.0271 ns</td><td>0.0254 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>       GetViaFastMember</td><td>33.8724 ns</td><td>0.0973 ns</td><td>0.0910 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>  GetViaFlashReflection</td><td>6.4690 ns</td><td>0.0160 ns</td><td>0.0142 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>GetViaReflectionWithCaching</td><td>126.4189 ns</td><td>0.2890 ns</td><td>0.2703 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>       GetViaReflection</td><td>192.1511 ns</td><td>0.3489 ns</td><td>0.3264 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>GetViaDelegateDynamicInvoke</td><td>954.5050 ns</td><td>9.3122 ns</td><td>8.7107 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>         SetViaProperty</td><td>1.8824 ns</td><td>0.0102 ns</td><td>0.0091 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>         SetViaDelegate</td><td>9.3983 ns</td><td>0.0167 ns</td><td>0.0157 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>           SetViaILEmit</td><td>10.3386 ns</td><td>0.0643 ns</td><td>0.0601 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>SetViaCompiledExpressionTrees</td><td>9.9524 ns</td><td>0.0418 ns</td><td>0.0391 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>       SetViaFastMember</td><td>35.6829 ns</td><td>0.1239 ns</td><td>0.1159 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>  SetViaFlashReflection</td><td>6.7196 ns</td><td>0.0153 ns</td><td>0.0136 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>SetViaReflectionWithCaching</td><td>205.2057 ns</td><td>0.9305 ns</td><td>0.8704 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>       SetViaReflection</td><td>277.5734 ns</td><td>1.9667 ns</td><td>1.8396 ns</td><td>?</td><td> ?</td>
+</tr><tr><td>SetViaDelegateDynamicInvoke</td><td>1,010.4607 ns</td><td>8.6607 ns</td><td>8.1012 ns</td><td>?</td><td> ?</td>
+</tr></tbody></table>
+</body>
+</html>
