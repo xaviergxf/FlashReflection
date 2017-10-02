@@ -34,7 +34,7 @@ Benchmark
                   GetViaILEmit |     2.9481 ns | 0.0174 ns | 0.0154 ns |      ?|        ? |
  GetViaCompiledExpressionTrees |    11.2914 ns | 0.0271 ns | 0.0254 ns |      ?|        ? |
               GetViaFastMember |    33.8724 ns | 0.0973 ns | 0.0910 ns |      ?|        ? |
-         GetViaFlashReflection |     6.4690 ns | 0.0160 ns | 0.0142 ns |      ?|        ? |
+         _GetViaFlashReflection_** |     6.4690 ns | 0.0160 ns | 0.0142 ns |      ?|        ? |
    GetViaReflectionWithCaching |   126.4189 ns | 0.2890 ns | 0.2703 ns |      ?|        ? |
               GetViaReflection |   192.1511 ns | 0.3489 ns | 0.3264 ns |      ?|        ? |
    GetViaDelegateDynamicInvoke |   954.5050 ns | 9.3122 ns | 8.7107 ns |      ?|        ? |
