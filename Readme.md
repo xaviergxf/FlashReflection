@@ -28,13 +28,13 @@ Benchmark
 
 <pre>
                         Method |          Mean |     Error |    StdDev | Scaled| ScaledSD |
------------------------------- |--------------:|----------:|----------:|-------:|---------:|
+------------------------------ |--------------:|----------:|----------:|------:|---------:|
                 GetViaProperty |     0.0058 ns | 0.0091 ns | 0.0085 ns |      ?|        ? |
                 GetViaDelegate |     1.8663 ns | 0.0119 ns | 0.0112 ns |      ?|        ? |
                   GetViaILEmit |     2.9481 ns | 0.0174 ns | 0.0154 ns |      ?|        ? |
  GetViaCompiledExpressionTrees |    11.2914 ns | 0.0271 ns | 0.0254 ns |      ?|        ? |
               GetViaFastMember |    33.8724 ns | 0.0973 ns | 0.0910 ns |      ?|        ? |
-         <b>GetViaFlashReflection</b> |     6.4690 ns | 0.0160 ns | 0.0142 ns |      ?|        ? |
+         <b>GetViaFlashReflection</b> |     <b>6.4690 ns</b> | <b>0.0160 ns</b> | <b>0.0142 ns</b> |      ?|        ? |
    GetViaReflectionWithCaching |   126.4189 ns | 0.2890 ns | 0.2703 ns |      ?|        ? |
               GetViaReflection |   192.1511 ns | 0.3489 ns | 0.3264 ns |      ?|        ? |
    GetViaDelegateDynamicInvoke |   954.5050 ns | 9.3122 ns | 8.7107 ns |      ?|        ? |
@@ -43,7 +43,7 @@ Benchmark
                   SetViaILEmit |    10.3386 ns | 0.0643 ns | 0.0601 ns |      ?|        ? |
  SetViaCompiledExpressionTrees |     9.9524 ns | 0.0418 ns | 0.0391 ns |      ?|        ? |
               SetViaFastMember |    35.6829 ns | 0.1239 ns | 0.1159 ns |      ?|        ? |
-         <b>SetViaFlashReflection</b> |     6.7196 ns | 0.0153 ns | 0.0136 ns |      ?|        ? |
+         <b>SetViaFlashReflection</b> |     <b>6.7196 ns</b> | <b>0.0153 ns</b> | <b>0.0136 ns</b> |      ?|        ? |
    SetViaReflectionWithCaching |   205.2057 ns | 0.9305 ns | 0.8704 ns |      ?|        ? |
               SetViaReflection |   277.5734 ns | 1.9667 ns | 1.8396 ns |      ?|        ? |
    SetViaDelegateDynamicInvoke | 1,010.4607 ns | 8.6607 ns | 8.1012 ns |      ?|        ? |
