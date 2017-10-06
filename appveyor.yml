@@ -11,4 +11,5 @@ build_script:
   - ps: dotnet restore
   - ps: dotnet build
 test_script:
-  - ps: dotnet xunit
+  - cd ".\test\FlashReflection.Test"
+  - dotnet xunit
