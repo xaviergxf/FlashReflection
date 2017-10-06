@@ -11,4 +11,4 @@ build_script:
   - ps: dotnet restore
   - ps: dotnet build
 test_script:
-  - ps: dotnet test
+  
