@@ -7,7 +7,8 @@
     <PackageProjectUrl>https://github.com/xaviergxf/FlashReflection</PackageProjectUrl>
     <RepositoryUrl>https://github.com/xaviergxf/FlashReflection</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <PackageTags>Reflection;Fast;Cache;Delegate</PackageTags>
+    <PackageTags>Reflection;Flash;Fast;Cache;Delegate;</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

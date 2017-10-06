@@ -12,3 +12,4 @@ C:\Github\FlashReflection\src\FlashReflection\obj\Debug\netstandard2.0\FlashRefl
 C:\Github\FlashReflection\src\FlashReflection\obj\Debug\netstandard2.0\FlashReflection.AssemblyInfo.cs
 C:\Github\FlashReflection\src\FlashReflection\obj\Debug\netstandard2.0\FlashReflection.dll
 C:\Github\FlashReflection\src\FlashReflection\obj\Debug\netstandard2.0\FlashReflection.pdb
+C:\Github\FlashReflection\src\FlashReflection\obj\Debug\netstandard2.0\FlashReflection.csprojResolveAssemblyReference.cache

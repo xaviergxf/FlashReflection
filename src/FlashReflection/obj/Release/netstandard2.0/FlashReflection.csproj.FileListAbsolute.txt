@@ -1,7 +1,6 @@
 C:\Github\FlashReflection\src\FlashReflection\bin\Release\netstandard2.0\FlashReflection.deps.json
 C:\Github\FlashReflection\src\FlashReflection\bin\Release\netstandard2.0\FlashReflection.dll
 C:\Github\FlashReflection\src\FlashReflection\bin\Release\netstandard2.0\FlashReflection.pdb
-C:\Github\FlashReflection\src\FlashReflection\obj\Release\netstandard2.0\FlashReflection.csprojResolveAssemblyReference.cache
 C:\Github\FlashReflection\src\FlashReflection\obj\Release\netstandard2.0\FlashReflection.csproj.CoreCompileInputs.cache
 C:\Github\FlashReflection\src\FlashReflection\obj\Release\netstandard2.0\FlashReflection.AssemblyInfoInputs.cache
 C:\Github\FlashReflection\src\FlashReflection\obj\Release\netstandard2.0\FlashReflection.AssemblyInfo.cs
