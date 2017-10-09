@@ -1,7 +1,6 @@
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
-C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\FlashReflection.Test.dll.config
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\FlashReflection.Test.deps.json
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\FlashReflection.Test.runtimeconfig.json
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\FlashReflection.Test.runtimeconfig.dev.json
@@ -95,7 +94,6 @@ C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\zh
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\FlashReflection.dll
 C:\Github\FlashReflection\test\FlashReflection.Test\bin\Release\netcoreapp2.0\FlashReflection.pdb
-C:\Github\FlashReflection\test\FlashReflection.Test\obj\Release\netcoreapp2.0\FlashReflection.Test.csproj.FlashReflection.Test.dll.config
 C:\Github\FlashReflection\test\FlashReflection.Test\obj\Release\netcoreapp2.0\FlashReflection.Test.csproj.CoreCompileInputs.cache
 C:\Github\FlashReflection\test\FlashReflection.Test\obj\Release\netcoreapp2.0\FlashReflection.Test.AssemblyInfoInputs.cache
 C:\Github\FlashReflection\test\FlashReflection.Test\obj\Release\netcoreapp2.0\FlashReflection.Test.AssemblyInfo.cs
