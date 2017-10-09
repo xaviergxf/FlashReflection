@@ -11911,9 +11911,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Github\\FlashReflection\\test\\FlashReflection.Benchmark\\FlashReflection.Benchmark.csproj",
       "projectName": "FlashReflection.Benchmark",
@@ -11969,9 +11966,25 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "BenchmarkDotNet": {
+            "target": "Package",
+            "version": "0.10.9"
+          },
+          "Sigil": {
+            "target": "Package",
+            "version": "4.7.0"
+          },
           "FastMember": {
             "target": "Package",
             "version": "1.1.0"
+          },
+          "Microsoft.Win32.Primitives": {
+            "target": "Package",
+            "version": "4.3.0"
+          },
+          "System.Net.NameResolution": {
+            "target": "Package",
+            "version": "4.3.0"
           },
           "System.Net.Primitives": {
             "target": "Package",
@@ -11980,30 +11993,35 @@
           "System.Security.Principal.Windows": {
             "target": "Package",
             "version": "4.3.0"
-          },
-          "Sigil": {
-            "target": "Package",
-            "version": "4.7.0"
-          },
-          "System.Net.NameResolution": {
-            "target": "Package",
-            "version": "4.3.0"
-          },
-          "Microsoft.Win32.Primitives": {
-            "target": "Package",
-            "version": "4.3.0"
-          },
-          "BenchmarkDotNet": {
-            "target": "Package",
-            "version": "0.10.9"
           }
         }
       },
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0.0",
+            "autoReferenced": true
+          },
+          "BenchmarkDotNet": {
+            "target": "Package",
+            "version": "0.10.9"
+          },
+          "Sigil": {
+            "target": "Package",
+            "version": "4.7.0"
+          },
           "FastMember": {
             "target": "Package",
             "version": "1.1.0"
+          },
+          "Microsoft.Win32.Primitives": {
+            "target": "Package",
+            "version": "4.3.0"
+          },
+          "System.Net.NameResolution": {
+            "target": "Package",
+            "version": "4.3.0"
           },
           "System.Net.Primitives": {
             "target": "Package",
@@ -12012,27 +12030,6 @@
           "System.Security.Principal.Windows": {
             "target": "Package",
             "version": "4.3.0"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
-          },
-          "Sigil": {
-            "target": "Package",
-            "version": "4.7.0"
-          },
-          "System.Net.NameResolution": {
-            "target": "Package",
-            "version": "4.3.0"
-          },
-          "Microsoft.Win32.Primitives": {
-            "target": "Package",
-            "version": "4.3.0"
-          },
-          "BenchmarkDotNet": {
-            "target": "Package",
-            "version": "0.10.9"
           }
         },
         "imports": [

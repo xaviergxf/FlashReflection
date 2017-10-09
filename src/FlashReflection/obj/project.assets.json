@@ -1021,9 +1021,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Github\\FlashReflection\\src\\FlashReflection\\FlashReflection.csproj",
       "projectName": "FlashReflection",
@@ -1066,14 +1063,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "System.Reflection.Emit.Lightweight": {
-            "target": "Package",
-            "version": "4.3.0"
-          },
-          "System.Reflection.Emit": {
-            "target": "Package",
-            "version": "4.3.0"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -1083,6 +1072,14 @@
           "Microsoft.Extensions.Caching.Memory": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "System.Reflection.Emit": {
+            "target": "Package",
+            "version": "4.3.0"
+          },
+          "System.Reflection.Emit.Lightweight": {
+            "target": "Package",
+            "version": "4.3.0"
           }
         },
         "imports": [

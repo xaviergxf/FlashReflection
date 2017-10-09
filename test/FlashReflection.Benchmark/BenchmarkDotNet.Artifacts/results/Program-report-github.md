@@ -10,21 +10,21 @@ Frequency=3312949 Hz, Resolution=301.8459 ns, Timer=TSC
 ```
  |                        Method |          Mean |     Error |    StdDev | Scaled | ScaledSD |
  |------------------------------ |--------------:|----------:|----------:|-------:|---------:|
- |                GetViaProperty |     0.0058 ns | 0.0091 ns | 0.0085 ns |      ? |        ? |
- |                GetViaDelegate |     1.8663 ns | 0.0119 ns | 0.0112 ns |      ? |        ? |
- |                  GetViaILEmit |     2.9481 ns | 0.0174 ns | 0.0154 ns |      ? |        ? |
- | GetViaCompiledExpressionTrees |    11.2914 ns | 0.0271 ns | 0.0254 ns |      ? |        ? |
- |              GetViaFastMember |    33.8724 ns | 0.0973 ns | 0.0910 ns |      ? |        ? |
- |         GetViaFlashReflection |     6.4690 ns | 0.0160 ns | 0.0142 ns |      ? |        ? |
- |   GetViaReflectionWithCaching |   126.4189 ns | 0.2890 ns | 0.2703 ns |      ? |        ? |
- |              GetViaReflection |   192.1511 ns | 0.3489 ns | 0.3264 ns |      ? |        ? |
- |   GetViaDelegateDynamicInvoke |   954.5050 ns | 9.3122 ns | 8.7107 ns |      ? |        ? |
- |                SetViaProperty |     1.8824 ns | 0.0102 ns | 0.0091 ns |      ? |        ? |
- |                SetViaDelegate |     9.3983 ns | 0.0167 ns | 0.0157 ns |      ? |        ? |
- |                  SetViaILEmit |    10.3386 ns | 0.0643 ns | 0.0601 ns |      ? |        ? |
- | SetViaCompiledExpressionTrees |     9.9524 ns | 0.0418 ns | 0.0391 ns |      ? |        ? |
- |              SetViaFastMember |    35.6829 ns | 0.1239 ns | 0.1159 ns |      ? |        ? |
- |         SetViaFlashReflection |     6.7196 ns | 0.0153 ns | 0.0136 ns |      ? |        ? |
- |   SetViaReflectionWithCaching |   205.2057 ns | 0.9305 ns | 0.8704 ns |      ? |        ? |
- |              SetViaReflection |   277.5734 ns | 1.9667 ns | 1.8396 ns |      ? |        ? |
- |   SetViaDelegateDynamicInvoke | 1,010.4607 ns | 8.6607 ns | 8.1012 ns |      ? |        ? |
+ |                GetViaProperty |     0.0043 ns | 0.0094 ns | 0.0078 ns |      ? |        ? |
+ |                GetViaDelegate |     1.8696 ns | 0.0128 ns | 0.0113 ns |      ? |        ? |
+ |                  GetViaILEmit |     3.7570 ns | 0.0318 ns | 0.0282 ns |      ? |        ? |
+ | GetViaCompiledExpressionTrees |    11.2991 ns | 0.0562 ns | 0.0526 ns |      ? |        ? |
+ |              GetViaFastMember |    33.9544 ns | 0.0388 ns | 0.0324 ns |      ? |        ? |
+ |         GetViaFlashReflection |     7.2982 ns | 0.0214 ns | 0.0190 ns |      ? |        ? |
+ |   GetViaReflectionWithCaching |   125.9705 ns | 0.2682 ns | 0.2509 ns |      ? |        ? |
+ |              GetViaReflection |   192.1607 ns | 0.2916 ns | 0.2585 ns |      ? |        ? |
+ |   GetViaDelegateDynamicInvoke |   944.1348 ns | 2.5528 ns | 2.2630 ns |      ? |        ? |
+ |                SetViaProperty |     1.9170 ns | 0.0256 ns | 0.0240 ns |      ? |        ? |
+ |                SetViaDelegate |    10.0766 ns | 0.0164 ns | 0.0145 ns |      ? |        ? |
+ |                  SetViaILEmit |    10.2032 ns | 0.0304 ns | 0.0254 ns |      ? |        ? |
+ | SetViaCompiledExpressionTrees |    10.0388 ns | 0.1336 ns | 0.1185 ns |      ? |        ? |
+ |              SetViaFastMember |    35.9679 ns | 0.2411 ns | 0.2256 ns |      ? |        ? |
+ |         SetViaFlashReflection |     6.7015 ns | 0.0136 ns | 0.0114 ns |      ? |        ? |
+ |   SetViaReflectionWithCaching |   204.5866 ns | 0.8273 ns | 0.7739 ns |      ? |        ? |
+ |              SetViaReflection |   276.0748 ns | 0.6922 ns | 0.5404 ns |      ? |        ? |
+ |   SetViaDelegateDynamicInvoke | 1,002.8511 ns | 5.1354 ns | 4.8037 ns |      ? |        ? |
