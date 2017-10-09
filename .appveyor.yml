@@ -7,9 +7,4 @@ init:
   # Good practise, because Windows line endings are different from Unix/Linux ones
   - cmd: git config --global core.autocrlf true  
 build_script:
-  - ps: dotnet --info
-  - ps: dotnet restore
-  - ps: dotnet build
-test_script:
-  - cd ".\test\FlashReflection.Test"
-  - dotnet xunit
+  - ps: .\build.ps1
