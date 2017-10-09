@@ -1,8 +1,10 @@
 language: csharp
 mono: none
 dotnet: 2.0.0
-install:
-- dotnet restore
+dist: trusty
+solution:FlashReflection.sln
 script:
-  - dotnet build --framework netcoreapp2.0
+  - dotnet --info
+  - dotnet restore
+  - dotnet build -f netcoreapp2.0
   - dotnet xunit ".\test\FlashReflection.Test" --framework netcoreapp2.0
