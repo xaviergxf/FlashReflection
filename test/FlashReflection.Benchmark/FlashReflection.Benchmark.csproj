@@ -2,8 +2,13 @@
 
   <PropertyGroup>
     <TargetFrameworks>net461;netcoreapp2.0</TargetFrameworks>
-    <OutputType>EXE</OutputType>
+	<TargetFrameworks Condition="'$(OS)' != 'Windows_NT'">netcoreapp2.0</TargetFrameworks>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
+  
+  <ItemGroup>
+	<None Remove="BenchmarkDotNet.Artifacts\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.10.9" />
