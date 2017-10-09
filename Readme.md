@@ -1,7 +1,8 @@
 
 FlashReflection - .NET reflection in a flash
 =====================================
-[![Build status](https://ci.appveyor.com/api/projects/status/o3yptfua91g3h6je/branch/master?svg=true)](https://ci.appveyor.com/project/xaviergxf/flashreflection/branch/master)
+[![Travis build status](https://img.shields.io/travis/xaviergxf/FlashReflection.svg?label=travis-ci&branch=master&style=flat-square)](https://travis-ci.org/xaviergxf/FlashReflection/branches)
+[![AppVeyor build status](https://img.shields.io/appveyor/ci/xaviergxf/FlashReflection/master.svg?label=appveyor&style=flat-square)](https://ci.appveyor.com/project/xaviergxf/flashreflection/branch/master)
 
 FlashReflection is a faster and easier way to use reflection in .NET. This library provides cache of types, properties, attributes and methods. 
 It allows a much faster access to property values.
