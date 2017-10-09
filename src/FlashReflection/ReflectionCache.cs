@@ -21,24 +21,20 @@ namespace FlashReflection
         {
             get
             {
-                if (_instance == null)
+                lock (_syncRoot)
                 {
-                    lock (_syncRoot)
+                    if (_instance == null)
                     {
                         if (MemoryCacheOptions == null)
                             MemoryCacheOptions = new MemoryCacheOptions();
-                        if (_instance == null)
-                        {
-                            _instance = new ReflectionCache();
-                            _instance._cachedTypes = new MemoryCache(MemoryCacheOptions);
-                            _instance._cachedProperties = new MemoryCache(MemoryCacheOptions);
-                            _instance._cachedMethods = new MemoryCache(MemoryCacheOptions);
-                            _instance._cachedTypeAttributes = new MemoryCache(MemoryCacheOptions);
-                            _instance._cachedPropertyAttributes = new MemoryCache(MemoryCacheOptions);
-                        }
+                        _instance = new ReflectionCache();
+                        _instance._cachedTypes = new MemoryCache(MemoryCacheOptions);
+                        _instance._cachedProperties = new MemoryCache(MemoryCacheOptions);
+                        _instance._cachedMethods = new MemoryCache(MemoryCacheOptions);
+                        _instance._cachedTypeAttributes = new MemoryCache(MemoryCacheOptions);
+                        _instance._cachedPropertyAttributes = new MemoryCache(MemoryCacheOptions);
                     }
                 }
-
                 return _instance;
             }
         }
@@ -48,13 +44,14 @@ namespace FlashReflection
             return GetReflectionType(typeof(T), memoryCacheOptions);
         }
 
-        public ReflectionType GetReflectionType(Type t, MemoryCacheEntryOptions memoryCacheOptions=null)
+        public ReflectionType GetReflectionType(Type t, MemoryCacheEntryOptions memoryCacheOptions = null)
         {
             if (t == null)
                 throw new ArgumentNullException(nameof(t));
             var key = t.AssemblyQualifiedName;
-            return _cachedTypes.GetOrCreate(key, entry=> {
-                if(memoryCacheOptions!=null)
+            return _cachedTypes.GetOrCreate(key, entry =>
+            {
+                if (memoryCacheOptions != null)
                     entry.SetOptions(memoryCacheOptions);
                 return new ReflectionType(t);
             });

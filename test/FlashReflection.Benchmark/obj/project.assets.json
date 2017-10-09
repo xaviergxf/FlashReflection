@@ -11938,6 +11938,7 @@
         "C:\\Repository\\trunk\\Reyl.Core\\packages": {},
         "C:\\Repository\\trunk\\Windows Apps\\DataProcessManagement\\packages": {},
         "C:\\temp\\Reyl.Core\\packages": {},
+        "\\\\vm-dwh\\Reyl.Packages\\Nuget": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://dotnet.myget.org/F/aspnetcore-ci-dev/api/v3/index.json": {},
         "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
