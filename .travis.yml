@@ -4,5 +4,5 @@ dotnet: 2.0.0
 install:
 - dotnet restore
 script:
-  - dotnet build
-  - dotnet xunit ".\test\FlashReflection.Test"
+  - dotnet build --framework netcoreapp2.0
+  - dotnet xunit ".\test\FlashReflection.Test" --framework netcoreapp2.0
