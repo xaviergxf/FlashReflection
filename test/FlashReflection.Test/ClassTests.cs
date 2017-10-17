@@ -13,6 +13,17 @@ namespace FlashReflection.Test
         { }
 
         [Fact]
+        public void TestBaseTypes()
+        {
+            var classAReflected = ReflectionCache.Instance.GetReflectionType<ClassA>();
+            var classBReflected = ReflectionCache.Instance.GetReflectionType<ClassB>();
+
+            Assert.True(classBReflected.BaseTypes.Count() == 1);
+            Assert.True(classBReflected.BaseTypes.FirstOrDefault() == typeof(ClassA));
+            Assert.True(classAReflected.BaseTypes.Count() == 0);
+        }
+
+        [Fact]
         public void TestProperties()
         {
             var classAReflected = ReflectionCache.Instance.GetReflectionType<ClassA>();

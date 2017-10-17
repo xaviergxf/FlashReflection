@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>FlashReflection the fastest way to use reflection</Title>
     <Description>FlashReflection allows fast reflection by caching and creating delegates of methods and properties</Description>
     <Copyright>Xavier Klausener</Copyright>
     <PackageProjectUrl>https://github.com/xaviergxf/FlashReflection</PackageProjectUrl>
@@ -9,6 +10,7 @@
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Reflection;Flash;Fast;Cache;Delegate;</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
