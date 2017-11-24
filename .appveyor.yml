@@ -1,8 +1,6 @@
 version: 1.0.{build}
 init:
   - git config --global core.autocrlf true
-before_install:
-  - chmod +x build.sh  
 build_script:
   - ps: .\build.ps1
 clone_depth: 1
